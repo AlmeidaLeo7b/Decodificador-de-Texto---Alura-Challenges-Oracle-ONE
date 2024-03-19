@@ -69,7 +69,7 @@ function verificarAcentosENumeros(str) {
 
 
     if (temMaiusculo) {
-        alert("A palavra está não pode possuir letra maiscula.");
+        alert("A palavra não pode conter letra maiscula.");
         return false;
     } else if (temNumeros) {
         alert("A palavra não pode conter números.");
