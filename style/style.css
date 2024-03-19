@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-darkblue: #0A3871;
+    --color-white: #FFFFFF;
+    --color-gray400: #495057;
+    --color-gray500: #343A40;
+    --color-black: #000000;
+    --color-lightBlue: #F3F5FC;
+
+
+    --font-Chivo: "Chivo Mono", monospace;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-Chivo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+img {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 20px;
+
+    background-color: var(--color-white);
+    border-radius: 32px;
+    border: 1px solid var(--color-darkblue);
+    box-shadow: 0px 24px 32px -8px var(--color-darkblue);
+    font-family: var(--font-Chivo);
+
+
+    /* Espaço entre as divs */
+}
+
+.content {
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+    /* Altura dos botões */
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 75%;
+    padding: 10px;
+    border-radius: 32px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: var(--color-darkblue);
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#btDescript {
+    background-color: var(--color-lightBlue);
+    color: var(--color-darkblue);
+}
+
+#box_Resposta {
+    text-align: center;
+
+}
+
+#btCopiar {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A3871;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+   
+}
+
+.divResposta{   
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 800px;
+    margin-top: 40px;
+    margin-left: 150vh;
+    background-color: var(--color-white);
+    border-radius: 32px;
+    border: 1px solid var(--color-darkblue);
+    box-shadow: 0px 24px 32px -8px var(--color-darkblue);
+    font-family: var(--font-Chivo);
+}
+
+.divResposta > h1{
+    text-align: center;
+    color: var(--color-gray500);
+}
+
+.rodape {
+    font-family: var(--font-Chivo) ;
+	background-color: var(--color-darkblue);
+	color: var(--color-white);
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+*/
