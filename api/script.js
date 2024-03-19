@@ -65,14 +65,17 @@ function verificarAcentosENumeros(str) {
     // Verifica se a string contém acentos
     let temAcentos = /[áàâãéèêíïóôõöúçñ]/i.test(str);
 
-    if (temNumeros && temAcentos) {
-        alert("A palavra contém números e acentuação.");
+    let temMaiusculo = /[A-Z]/.test(str);
+
+
+    if (temMaiusculo) {
+        alert("A palavra está não pode possuir letra maiscula.");
         return false;
     } else if (temNumeros) {
-        alert("A palavra contém números.");
+        alert("A palavra não pode conter números.");
         return false;
     } else if (temAcentos) {
-        alert("A palavra contém acentuação.");
+        alert("A palavra não pode conter acentuação.");
         return false;
     }
     return true;
